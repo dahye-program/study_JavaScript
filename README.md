@@ -1,3 +1,5 @@
 # study_JavaScript
 
-공식 사이트: ecma-international.org, developer.mozilla.org 도 좋아
+JavaScript 입문(basic) 공부
+
+공식 사이트 추천: ecma-international.org, developer.mozilla.org

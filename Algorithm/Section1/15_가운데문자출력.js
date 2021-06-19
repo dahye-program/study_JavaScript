@@ -3,11 +3,13 @@
 const solution = (str) => {
     let answer="";
     let mid=Math.floor(str.length/2); // 나머지 버린 몫
-    // if(str.length%2===0){
-    //     answer+=str[str.length/2];
-    //     answer+=str[str.length/2+1];
-    // }
-    // else answer+=str[str.length/2]; ??????????????????
+    if(str.length%2===0){ // 짝수
+        answer=str.substr(mid-1, 2);
+        // answer=str.substring(mid-1, mid+1); mid-1부터 mid+1 전까지
+    }
+    // 홀수
+    else answer=str.substr(mid,1); // mid 인덱스부터 1만큼
+    // answer = str.substring(mid, mid+1)
 
     return answer;
 }

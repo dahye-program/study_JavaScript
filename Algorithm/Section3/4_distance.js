@@ -7,3 +7,4 @@ const solution = (str, str2) => {
 
 let str="teachermode";
 console.log(solution(str, 'e'));
+
